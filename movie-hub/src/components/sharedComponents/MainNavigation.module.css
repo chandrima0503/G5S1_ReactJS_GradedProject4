@@ -1,0 +1,67 @@
+.navigation {
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(26, 8, 8);
+  justify-content: space-between;
+}
+
+.navLink {
+  text-decoration: none;
+}
+.homeNav {
+  display: flex;
+  /* justify-content: flex-start; */
+  gap: 2rem;
+  text-align: center;
+}
+.homeNav h2 {
+  font-size: large;
+  padding: 0.5rem 0;
+  margin-left: 2rem;
+  background: linear-gradient(to right, #f53a33, #de236b, #fa28e2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.homeNav p {
+  padding: 0.6rem 0;
+  text-decoration: none;
+  color: rgb(240, 221, 221);
+}
+.favouriteNav {
+  display: flex;
+  padding: 0.6rem 0;
+  margin-right: 2rem;
+}
+.favouriteNav p {
+  text-decoration: none;
+  color: rgb(240, 221, 221);
+}
+.favouriteNav p:hover {
+  background: linear-gradient(to right, #f53a33, #de236b, #fa28e2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.favouriteNavLink {
+  text-decoration: none;
+}
+
+.homeNav p a {
+  text-decoration: none;
+}
+
+.homeNav p:hover {
+  background: linear-gradient(to right, #f53a33, #de236b, #fa28e2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.activeColor {
+  /* text-decoration: none; */
+  color: #de236b;
+}
+
+.notActiveColor {
+  color: rgb(240, 221, 221);
+}

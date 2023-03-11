@@ -1,0 +1,67 @@
+.searchSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  color: white;
+}
+.searchInputandIcon {
+  display: flex;
+  gap: 1rem;
+}
+.input {
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+.movieListSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  background: rgba(0, 0, 0, 0.8);
+  color: #f0dddd;
+  z-index: 2;
+}
+.movieTitle > a {
+  text-decoration: none;
+  color: #f0dddd;
+  white-space: nowrap;
+}
+.movieImgandTitleContainer {
+  display: flex;
+  background-color: #705f5e;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 2rem;
+  margin: 0.5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.imgContainer {
+  width: 2rem;
+  height: 2rem;
+
+  margin-left: 1rem;
+}
+
+.imageContainer > img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+.movieImgandTitleContainer:hover {
+  background: linear-gradient(to right, #f53a33, #de236b, #fa28e2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.movieImgandTitleContainerHide {
+  display: none;
+}

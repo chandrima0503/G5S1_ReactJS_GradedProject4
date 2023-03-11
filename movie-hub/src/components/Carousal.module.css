@@ -1,0 +1,63 @@
+.carousal {
+  display: flex;
+  width: 100%;
+  height: 60rem;
+  overflow: hidden;
+  /* background-color: blanchedalmond; */
+  /* background-image: url(../assets/img/3Idiots.jpg); */
+  /* object-fit: fit; */
+  /* background-repeat: no-repeat; */
+  /* overflow: hidden; */
+}
+
+.carousal img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 2.48/1;
+}
+.leftBtn {
+  position: absolute;
+  transform: translate(0, 50%);
+  top: 35%;
+  left: 2rem;
+  font-size: 50px;
+  font-weight: bolder;
+  z-index: 1;
+  cursor: pointer;
+  color: black;
+}
+.rightBtn {
+  position: absolute;
+  transform: translate(0, 50%);
+  top: 35%;
+  right: 2rem;
+  font-size: 50px;
+  font-weight: bolder;
+  z-index: 1;
+  cursor: pointer;
+  color: black;
+}
+.shade {
+  /* align-self: flex-end; */
+  width: 100%;
+  height: 6rem;
+  background-image: linear-gradient(
+    rgba(240, 221, 221, 00.025),
+    rgba(13, 2, 2, 0.6) 60%
+  );
+
+  position: absolute;
+  /* bottom: 6.5rem; */
+  margin-top: 864px;
+  left: 0;
+}
+.leftBtn:hover {
+  background: linear-gradient(to right, #f53a33, #de236b, #fa28e2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.rightBtn:hover {
+  background: linear-gradient(to right, #f53a33, #de236b, #fa28e2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

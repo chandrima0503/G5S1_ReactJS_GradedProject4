@@ -1,0 +1,36 @@
+.movieTags {
+  padding: 1rem;
+  overflow: hidden;
+}
+.movieTile {
+  display: flex;
+  width: 100%;
+  gap: 5rem;
+  padding-left: 2rem;
+  /* justify-content: space-between; */
+  background-color: black;
+  margin-top: 2rem;
+}
+
+.sectionHeading {
+  display: flex;
+  width: 25%;
+  gap: 2rem;
+  transition: all 2s ease;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.arrow {
+  cursor: pointer;
+}
+
+.exploreSection {
+  background: linear-gradient(to right, #f53a33, #de236b, #fa28e2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  z-index: 1;
+  cursor: pointer;
+  /* transition: all 10s ease; */
+}
